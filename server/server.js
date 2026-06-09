@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 let corsOptions = {
-    origin: 'http://localhost:5174',
+    origin: 'https://mern-admin-0miv.onrender.com',
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
 }
